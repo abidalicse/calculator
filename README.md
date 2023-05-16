@@ -11,13 +11,13 @@ print(list)
 # print(a+ b)
 d = int(input("choose operation- "))
 if d == 1:
-  print("Addition of first and second number is:", a + b)
+  print(f"Addition of {a} and {b} is:", a + b)
 elif d == 2:
-  print("Subtraction of first and second number is:", a - b)
+  print("Subtraction of {a} and {b} is:", a - b)
 elif d == 3:
-  print("Multiplication of first and second number is:", a * b)
+  print("Multiplication of {a} and {b} is:", a * b)
 elif d == 4:
-  print("Dividation of first and second number is:", a / b)
+  print("Dividation of {a} and {b} is:", a / b)
 else:
   print("Error 404")
   print("Choose number between 1 to 4")
